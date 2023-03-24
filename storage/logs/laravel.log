@@ -1,0 +1,33 @@
+[2023-03-24 20:33:13] local.ERROR: There are no commands defined in the "db:" namespace.
+
+Did you mean this?
+    db {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"db:\" namespace.
+
+Did you mean this?
+    db at C:\\gestapp\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\gestapp\\vendor\\symfony\\console\\Application.php(683): Symfony\\Component\\Console\\Application->findNamespace('db:')
+#1 C:\\gestapp\\vendor\\symfony\\console\\Application.php(256): Symfony\\Component\\Console\\Application->find('db::seed')
+#2 C:\\gestapp\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\gestapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\gestapp\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2023-03-24 20:33:27] local.ERROR: There are no commands defined in the "DB:" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"DB:\" namespace. at C:\\gestapp\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\gestapp\\vendor\\symfony\\console\\Application.php(683): Symfony\\Component\\Console\\Application->findNamespace('DB:')
+#1 C:\\gestapp\\vendor\\symfony\\console\\Application.php(256): Symfony\\Component\\Console\\Application->find('DB::seed')
+#2 C:\\gestapp\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\gestapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\gestapp\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2023-03-24 20:33:38] local.ERROR: There are no commands defined in the "cfqma:" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"cfqma:\" namespace. at C:\\gestapp\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\gestapp\\vendor\\symfony\\console\\Application.php(683): Symfony\\Component\\Console\\Application->findNamespace('cfqma:')
+#1 C:\\gestapp\\vendor\\symfony\\console\\Application.php(256): Symfony\\Component\\Console\\Application->find('cfqma::seed')
+#2 C:\\gestapp\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\gestapp\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(200): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\gestapp\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
